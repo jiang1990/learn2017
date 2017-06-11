@@ -4,7 +4,7 @@ import java.util.Map;
 
 public class Configuration {
 
-	static Map<String,String> configurations = new HashMap<>();
+	static Map<String,String> configurations = new HashMap<String, String>();
 	static{
 		configurations.put(ConfigurationKeys.SMTP_SERVER, "smtp.163.com");
 		configurations.put(ConfigurationKeys.ALT_SMTP_SERVER, "smtp1.163.com");
